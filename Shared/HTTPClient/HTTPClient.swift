@@ -9,15 +9,18 @@ import Foundation
 import Alamofire
 import RealmSwift
 
-final class OfflineRequest: Object, ObjectKeyIdentifiable {
-    
-    @Persisted(primaryKey: true) var id: ObjectId
-    
-    @Persisted var parameters: Map<String, String>
-    @Persisted var url: String
-    @Persisted var method: String
-    
-}
+/// This file contains a commented out alternative approach that I thought of for caching and recalling offline activity once a network is found.
+/// It didn't quite work due to needing to store a type definition in realm, which got complicated, so I implemented an 'upload new and modified, delete missing' logic.
+
+//final class OfflineRequest: Object, ObjectKeyIdentifiable {
+//
+//    @Persisted(primaryKey: true) var id: ObjectId
+//
+//    @Persisted var parameters: Map<String, String>
+//    @Persisted var url: String
+//    @Persisted var method: String
+//
+//}
 
 actor HTTPClient {
     
