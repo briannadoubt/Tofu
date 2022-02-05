@@ -8,11 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		030E8A4627AA5E740048A43C /* ToFuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A3627AA5E730048A43C /* ToFuApp.swift */; };
-		030E8A4727AA5E740048A43C /* ToFuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A3627AA5E730048A43C /* ToFuApp.swift */; };
 		030E8A4827AA5E740048A43C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A3727AA5E730048A43C /* ContentView.swift */; };
-		030E8A4927AA5E740048A43C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A3727AA5E730048A43C /* ContentView.swift */; };
 		030E8A4A27AA5E740048A43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030E8A3827AA5E740048A43C /* Assets.xcassets */; };
 		030E8A4B27AA5E740048A43C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030E8A3827AA5E740048A43C /* Assets.xcassets */; };
+		030E8A5627AA61E50048A43C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A5527AA61E50048A43C /* Realm */; };
+		030E8A5827AA61E50048A43C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A5727AA61E50048A43C /* RealmSwift */; };
+		030E8A5B27AA621E0048A43C /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A5A27AA621E0048A43C /* Realm */; };
+		030E8A5D27AA621E0048A43C /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A5C27AA621E0048A43C /* RealmSwift */; };
+		030E8A6427AB2B160048A43C /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A6327AB2B160048A43C /* NetworkHandler.swift */; };
+		030E8A6827AB3DA90048A43C /* ErrorHandler in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A6727AB3DA90048A43C /* ErrorHandler */; };
+		030E8A6A27AB3DC00048A43C /* ErrorHandler in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A6927AB3DC00048A43C /* ErrorHandler */; };
+		030E8A6C27AB3FEB0048A43C /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A6B27AB3FEB0048A43C /* NetworkObserver.swift */; };
+		030E8A7027AB42E50048A43C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A6F27AB42E50048A43C /* Alamofire */; };
+		030E8A7227AB42EC0048A43C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 030E8A7127AB42EC0048A43C /* Alamofire */; };
+		030E8A7427AB439E0048A43C /* HTTPActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7327AB439E0048A43C /* HTTPActor.swift */; };
+		030E8A7527AB439E0048A43C /* HTTPActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7327AB439E0048A43C /* HTTPActor.swift */; };
+		030E8A7A27AB44040048A43C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7927AB44040048A43C /* Category.swift */; };
+		030E8A7D27AB44140048A43C /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7C27AB44140048A43C /* Item.swift */; };
+		030E8A8027AB442A0048A43C /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7F27AB442A0048A43C /* ItemRow.swift */; };
+		030E8A8627AB44590048A43C /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A8527AB44590048A43C /* CategoryCard.swift */; };
+		030E8A8C27AB46CB0048A43C /* HTTPURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A8B27AB46CB0048A43C /* HTTPURLRequest.swift */; };
+		030E8A8D27AB46CB0048A43C /* HTTPURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A8B27AB46CB0048A43C /* HTTPURLRequest.swift */; };
+		030E8A9527AB62900048A43C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A9427AB62900048A43C /* ErrorResponse.swift */; };
+		030E8A9627AB62900048A43C /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A9427AB62900048A43C /* ErrorResponse.swift */; };
+		030E8A9827AB62B60048A43C /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A9727AB62B60048A43C /* ResponseStatus.swift */; };
+		030E8A9927AB62B60048A43C /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A9727AB62B60048A43C /* ResponseStatus.swift */; };
+		030E8A9B27AB6BB50048A43C /* DataRequest+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A9A27AB6BB50048A43C /* DataRequest+.swift */; };
+		030E8A9C27AB6BB50048A43C /* DataRequest+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A9A27AB6BB50048A43C /* DataRequest+.swift */; };
+		03616FA027AD02810051045A /* ItemDescriptionTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03616F9F27AD02810051045A /* ItemDescriptionTextEditor.swift */; };
+		03BCAD4827AE48FC002C1364 /* Realm+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB8F27AB878D003154F4 /* Realm+.swift */; };
+		03BCAD4927AE48FC002C1364 /* CategoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A8527AB44590048A43C /* CategoryCard.swift */; };
+		03BCAD4A27AE48FC002C1364 /* ContentObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB9627ABA69E003154F4 /* ContentObserver.swift */; };
+		03BCAD4B27AE48FC002C1364 /* ItemDescriptionTextEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03616F9F27AD02810051045A /* ItemDescriptionTextEditor.swift */; };
+		03BCAD4C27AE48FC002C1364 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7C27AB44140048A43C /* Item.swift */; };
+		03BCAD4D27AE48FC002C1364 /* NewCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB9827ABA9D9003154F4 /* NewCategoryButton.swift */; };
+		03BCAD4E27AE48FC002C1364 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A6327AB2B160048A43C /* NetworkHandler.swift */; };
+		03BCAD4F27AE48FC002C1364 /* NetworkObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A6B27AB3FEB0048A43C /* NetworkObserver.swift */; };
+		03BCAD5027AE48FC002C1364 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7927AB44040048A43C /* Category.swift */; };
+		03BCAD5127AE48FC002C1364 /* ToFuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A3627AA5E730048A43C /* ToFuApp.swift */; };
+		03BCAD5227AE48FC002C1364 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A7F27AB442A0048A43C /* ItemRow.swift */; };
+		03BCAD5327AE48FC002C1364 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030E8A3727AA5E730048A43C /* ContentView.swift */; };
+		03BCAD5527AE4900002C1364 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB8D27AB770D003154F4 /* HTTPClient.swift */; };
+		03DABB8E27AB770D003154F4 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB8D27AB770D003154F4 /* HTTPClient.swift */; };
+		03DABB9027AB878D003154F4 /* Realm+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB8F27AB878D003154F4 /* Realm+.swift */; };
+		03DABB9727ABA69E003154F4 /* ContentObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB9627ABA69E003154F4 /* ContentObserver.swift */; };
+		03DABB9927ABA9D9003154F4 /* NewCategoryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DABB9827ABA9D9003154F4 /* NewCategoryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +62,22 @@
 		030E8A3D27AA5E740048A43C /* ToFu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToFu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		030E8A4327AA5E740048A43C /* ToFu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToFu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		030E8A4527AA5E740048A43C /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		030E8A6327AB2B160048A43C /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		030E8A6B27AB3FEB0048A43C /* NetworkObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkObserver.swift; sourceTree = "<group>"; };
+		030E8A7327AB439E0048A43C /* HTTPActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPActor.swift; sourceTree = "<group>"; };
+		030E8A7927AB44040048A43C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		030E8A7C27AB44140048A43C /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		030E8A7F27AB442A0048A43C /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		030E8A8527AB44590048A43C /* CategoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCard.swift; sourceTree = "<group>"; };
+		030E8A8B27AB46CB0048A43C /* HTTPURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPURLRequest.swift; sourceTree = "<group>"; };
+		030E8A9427AB62900048A43C /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		030E8A9727AB62B60048A43C /* ResponseStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatus.swift; sourceTree = "<group>"; };
+		030E8A9A27AB6BB50048A43C /* DataRequest+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataRequest+.swift"; sourceTree = "<group>"; };
+		03616F9F27AD02810051045A /* ItemDescriptionTextEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDescriptionTextEditor.swift; sourceTree = "<group>"; };
+		03DABB8D27AB770D003154F4 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		03DABB8F27AB878D003154F4 /* Realm+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Realm+.swift"; sourceTree = "<group>"; };
+		03DABB9627ABA69E003154F4 /* ContentObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentObserver.swift; sourceTree = "<group>"; };
+		03DABB9827ABA9D9003154F4 /* NewCategoryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCategoryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +85,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030E8A7027AB42E50048A43C /* Alamofire in Frameworks */,
+				030E8A6827AB3DA90048A43C /* ErrorHandler in Frameworks */,
+				030E8A5827AA61E50048A43C /* RealmSwift in Frameworks */,
+				030E8A5627AA61E50048A43C /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,6 +96,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030E8A7227AB42EC0048A43C /* Alamofire in Frameworks */,
+				030E8A6A27AB3DC00048A43C /* ErrorHandler in Frameworks */,
+				030E8A5D27AA621E0048A43C /* RealmSwift in Frameworks */,
+				030E8A5B27AA621E0048A43C /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +112,7 @@
 				030E8A3527AA5E730048A43C /* Shared */,
 				030E8A4427AA5E740048A43C /* macOS */,
 				030E8A3E27AA5E740048A43C /* Products */,
+				030E8A5927AA621E0048A43C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +121,17 @@
 			children = (
 				030E8A3627AA5E730048A43C /* ToFuApp.swift */,
 				030E8A3727AA5E730048A43C /* ContentView.swift */,
+				03DABB9627ABA69E003154F4 /* ContentObserver.swift */,
+				030E8A6327AB2B160048A43C /* NetworkHandler.swift */,
+				03DABB8F27AB878D003154F4 /* Realm+.swift */,
+				03DABB9827ABA9D9003154F4 /* NewCategoryButton.swift */,
+				030E8A8527AB44590048A43C /* CategoryCard.swift */,
+				03616F9F27AD02810051045A /* ItemDescriptionTextEditor.swift */,
+				030E8A7F27AB442A0048A43C /* ItemRow.swift */,
+				030E8A7C27AB44140048A43C /* Item.swift */,
+				030E8A7927AB44040048A43C /* Category.swift */,
+				030E8A6B27AB3FEB0048A43C /* NetworkObserver.swift */,
+				03BCAD4027AE183B002C1364 /* HTTPClient */,
 				030E8A3827AA5E740048A43C /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -78,6 +154,26 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		030E8A5927AA621E0048A43C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03BCAD4027AE183B002C1364 /* HTTPClient */ = {
+			isa = PBXGroup;
+			children = (
+				030E8A9A27AB6BB50048A43C /* DataRequest+.swift */,
+				03DABB8D27AB770D003154F4 /* HTTPClient.swift */,
+				030E8A7327AB439E0048A43C /* HTTPActor.swift */,
+				030E8A8B27AB46CB0048A43C /* HTTPURLRequest.swift */,
+				030E8A9427AB62900048A43C /* ErrorResponse.swift */,
+				030E8A9727AB62B60048A43C /* ResponseStatus.swift */,
+			);
+			path = HTTPClient;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +190,12 @@
 			dependencies = (
 			);
 			name = "ToFu (iOS)";
+			packageProductDependencies = (
+				030E8A5527AA61E50048A43C /* Realm */,
+				030E8A5727AA61E50048A43C /* RealmSwift */,
+				030E8A6727AB3DA90048A43C /* ErrorHandler */,
+				030E8A6F27AB42E50048A43C /* Alamofire */,
+			);
 			productName = "ToFu (iOS)";
 			productReference = 030E8A3D27AA5E740048A43C /* ToFu.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +213,12 @@
 			dependencies = (
 			);
 			name = "ToFu (macOS)";
+			packageProductDependencies = (
+				030E8A5A27AA621E0048A43C /* Realm */,
+				030E8A5C27AA621E0048A43C /* RealmSwift */,
+				030E8A6927AB3DC00048A43C /* ErrorHandler */,
+				030E8A7127AB42EC0048A43C /* Alamofire */,
+			);
 			productName = "ToFu (macOS)";
 			productReference = 030E8A4327AA5E740048A43C /* ToFu.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +250,11 @@
 				Base,
 			);
 			mainGroup = 030E8A3027AA5E730048A43C;
+			packageReferences = (
+				030E8A5427AA61E50048A43C /* XCRemoteSwiftPackageReference "realm-swift" */,
+				030E8A6627AB3DA90048A43C /* XCRemoteSwiftPackageReference "ErrorHandler" */,
+				030E8A6E27AB42E50048A43C /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 030E8A3E27AA5E740048A43C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,8 +289,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				030E8A8027AB442A0048A43C /* ItemRow.swift in Sources */,
 				030E8A4827AA5E740048A43C /* ContentView.swift in Sources */,
+				030E8A8C27AB46CB0048A43C /* HTTPURLRequest.swift in Sources */,
 				030E8A4627AA5E740048A43C /* ToFuApp.swift in Sources */,
+				03DABB9027AB878D003154F4 /* Realm+.swift in Sources */,
+				030E8A6C27AB3FEB0048A43C /* NetworkObserver.swift in Sources */,
+				030E8A9527AB62900048A43C /* ErrorResponse.swift in Sources */,
+				030E8A7D27AB44140048A43C /* Item.swift in Sources */,
+				030E8A6427AB2B160048A43C /* NetworkHandler.swift in Sources */,
+				030E8A9B27AB6BB50048A43C /* DataRequest+.swift in Sources */,
+				030E8A8627AB44590048A43C /* CategoryCard.swift in Sources */,
+				03616FA027AD02810051045A /* ItemDescriptionTextEditor.swift in Sources */,
+				030E8A9827AB62B60048A43C /* ResponseStatus.swift in Sources */,
+				03DABB8E27AB770D003154F4 /* HTTPClient.swift in Sources */,
+				03DABB9927ABA9D9003154F4 /* NewCategoryButton.swift in Sources */,
+				030E8A7427AB439E0048A43C /* HTTPActor.swift in Sources */,
+				030E8A7A27AB44040048A43C /* Category.swift in Sources */,
+				03DABB9727ABA69E003154F4 /* ContentObserver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,8 +314,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030E8A4927AA5E740048A43C /* ContentView.swift in Sources */,
-				030E8A4727AA5E740048A43C /* ToFuApp.swift in Sources */,
+				03BCAD4C27AE48FC002C1364 /* Item.swift in Sources */,
+				03BCAD4D27AE48FC002C1364 /* NewCategoryButton.swift in Sources */,
+				03BCAD5127AE48FC002C1364 /* ToFuApp.swift in Sources */,
+				03BCAD4F27AE48FC002C1364 /* NetworkObserver.swift in Sources */,
+				030E8A8D27AB46CB0048A43C /* HTTPURLRequest.swift in Sources */,
+				030E8A9627AB62900048A43C /* ErrorResponse.swift in Sources */,
+				030E8A9C27AB6BB50048A43C /* DataRequest+.swift in Sources */,
+				03BCAD5327AE48FC002C1364 /* ContentView.swift in Sources */,
+				03BCAD4A27AE48FC002C1364 /* ContentObserver.swift in Sources */,
+				030E8A9927AB62B60048A43C /* ResponseStatus.swift in Sources */,
+				03BCAD4927AE48FC002C1364 /* CategoryCard.swift in Sources */,
+				030E8A7527AB439E0048A43C /* HTTPActor.swift in Sources */,
+				03BCAD4B27AE48FC002C1364 /* ItemDescriptionTextEditor.swift in Sources */,
+				03BCAD4827AE48FC002C1364 /* Realm+.swift in Sources */,
+				03BCAD4E27AE48FC002C1364 /* NetworkHandler.swift in Sources */,
+				03BCAD5027AE48FC002C1364 /* Category.swift in Sources */,
+				03BCAD5527AE4900002C1364 /* HTTPClient.swift in Sources */,
+				03BCAD5227AE48FC002C1364 /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,6 +516,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -399,6 +545,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -452,6 +599,76 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		030E8A5427AA61E50048A43C /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.0;
+			};
+		};
+		030E8A6627AB3DA90048A43C /* XCRemoteSwiftPackageReference "ErrorHandler" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/briannadoubt/ErrorHandler";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		030E8A6E27AB42E50048A43C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		030E8A5527AA61E50048A43C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A5427AA61E50048A43C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		030E8A5727AA61E50048A43C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A5427AA61E50048A43C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		030E8A5A27AA621E0048A43C /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A5427AA61E50048A43C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		030E8A5C27AA621E0048A43C /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A5427AA61E50048A43C /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		030E8A6727AB3DA90048A43C /* ErrorHandler */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A6627AB3DA90048A43C /* XCRemoteSwiftPackageReference "ErrorHandler" */;
+			productName = ErrorHandler;
+		};
+		030E8A6927AB3DC00048A43C /* ErrorHandler */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A6627AB3DA90048A43C /* XCRemoteSwiftPackageReference "ErrorHandler" */;
+			productName = ErrorHandler;
+		};
+		030E8A6F27AB42E50048A43C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A6E27AB42E50048A43C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		030E8A7127AB42EC0048A43C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 030E8A6E27AB42E50048A43C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 030E8A3127AA5E730048A43C /* Project object */;
 }
